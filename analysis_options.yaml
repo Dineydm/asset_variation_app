@@ -1,0 +1,44 @@
+include: package:effective_dart/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "lib/generated/i18n.dart"
+    - "lib/core/db/db.g.dart"
+    - "lib/features/login/widgets/masked_text_field.dart"
+
+linter:
+  rules:
+    always_declare_return_types: true
+    prefer_relative_imports: false
+    always_put_control_body_on_new_line: true
+    always_put_required_named_parameters_first: true
+    always_require_non_null_named_parameters: true
+    avoid_function_literals_in_foreach_calls: false
+    avoid_positional_boolean_parameters: true
+    avoid_unnecessary_containers: true
+    await_only_futures: true
+    lines_longer_than_80_chars: false
+    no_adjacent_strings_in_list: true
+    no_duplicate_case_values: true
+    no_logic_in_create_state: true
+    parameter_assignments: true
+    prefer_const_constructors_in_immutables: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_contains: true
+    prefer_final_locals: true
+    prefer_foreach: true
+    prefer_if_null_operators: true
+    prefer_is_empty: true
+    prefer_is_not_empty: true
+    prefer_null_aware_operators: true
+    prefer_single_quotes: true
+    prefer_spread_collections: true
+    public_member_api_docs: false
+    sized_box_for_whitespace: true
+    unnecessary_string_escapes: true
+    unnecessary_string_interpolations: true
+    unrelated_type_equality_checks: true
+    valid_regexps: true
+
