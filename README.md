@@ -7,4 +7,4 @@
 
 ![Variação da variação](https://github.com/Dineydm/asset_variation_app/blob/main/shots/App.gif)
 
-![Alt text](https://github.com/Dineydm/asset_variation_app/blob/main/shots/Chart.png "Screen 1")
+![Alt text](https://github.com/Dineydm/asset_variation_app/blob/main/shots/Screen1.png "Screen 1")
